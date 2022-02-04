@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidERestaurant</string>
+    <string name="appetizer_1">1st Appetizer</string>
+    <string name="appetizer_2">2nd Appetizer</string>
+    <string name="appetizer_3">3rd Appetizer</string>
+    <string name="total">Total</string>
+    <string name="itemAdded">Votre plat a été ajouté au panier</string>
+</resources>
