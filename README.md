@@ -1,2 +1,2 @@
-# Android-Restaurant_AndroidStudio-Kotlin
+# Android Restaurant - AndroidStudio/Kotlin
  
