@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
         binding.appetizers.setOnClickListener{
             Log.e("Closure tag", "Home Activity Closed")
             changeActivity(MealType.APPETIZERS)
-        }*
+        }
 
         binding.desserts.setOnClickListener{
             Log.e("Closure tag", "Home Activity Closed")
