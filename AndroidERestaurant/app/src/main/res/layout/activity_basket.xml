@@ -6,11 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Basket.BasketActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1280dp"
+        android:layout_height="1609dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_1_really_need_clean_shopping_cart_minerva_studio" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="412dp"
         android:layout_height="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,10 +30,11 @@
         android:id="@+id/orderButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="96dp"
         android:text="@string/placeorder"
         android:textColor="@color/slate_50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
