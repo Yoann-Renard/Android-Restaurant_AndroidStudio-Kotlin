@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import fr.isen.renard.androiderestaurant.R
 import fr.isen.renard.androiderestaurant.databinding.ActivityBasketBinding
 import fr.isen.renard.androiderestaurant.Basket.Basket
+import android.content.Intent
+import fr.isen.renard.androiderestaurant.Registration.UserActivity
 
 class BasketActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBasketBinding
@@ -15,6 +17,10 @@ class BasketActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         loadlist()
+        binding.orderButton.setOnClickListener{
+            val intent = Intent(this, UserActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun loadlist(){
